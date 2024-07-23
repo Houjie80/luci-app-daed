@@ -13,8 +13,9 @@ jobs:
           - aarch64_generic    
           - i386_pentium4
           - x86_64
+          - arm64
         sdk:
-          - openwrt-22.03
+          - openwrt-23.05.3
 
     steps:
       - uses: actions/checkout@main
