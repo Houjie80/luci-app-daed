@@ -13,9 +13,9 @@ jobs:
           #- aarch64_generic    
           #- i386_pentium4
           #- x86_64
-          - armsr-armv8
+          - armvirt-64
         sdk:
-          - openwrt-23.05.3
+          - openwrt-22.03
 
     steps:
       - uses: actions/checkout@main
