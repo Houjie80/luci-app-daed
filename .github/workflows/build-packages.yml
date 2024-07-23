@@ -13,7 +13,7 @@ jobs:
           #- aarch64_generic    
           #- i386_pentium4
           #- x86_64
-          - armsr_armv8
+          - armsr-armv8
         sdk:
           - openwrt-23.05.3
 
